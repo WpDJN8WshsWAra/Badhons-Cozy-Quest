@@ -1,0 +1,13 @@
+# Development scripts and temporary artifacts
+scripts/
+test_screen.png
+*.log
+
+# Distribution zip
+*.zip
+
+# System & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

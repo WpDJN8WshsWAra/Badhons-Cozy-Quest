@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="bn" translate="no" class="notranslate">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="google" content="notranslate">
+<title>Badhon's Cozy Quest</title>
+<meta name="description" content="বাঁধনের কোজি ইংলিশ যাত্রা: এক কাপ চা আর একটু একটু ইংরেজি। Beginner থেকে Pro, চারটা লেভেলে মজার ইংরেজি শেখার গেম।">
+<meta name="theme-color" content="#52A388">
+<meta name="color-scheme" content="only light">
+<meta name="supported-color-schemes" content="light">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Cozy Quest">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Badhon's Cozy Quest">
+<meta property="og:locale" content="bn_BD">
+<meta property="og:title" content="Badhon's Cozy Quest 🍵 বাঁধনের কোজি ইংলিশ যাত্রা">
+<meta property="og:description" content="এক কাপ চা আর একটু একটু ইংরেজি। Beginner থেকে Pro, 400+ প্রশ্ন, আর নিজের ছোট্ট ঘর সাজানোর মজা!">
+<meta property="og:image" content="og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Badhon's Cozy Quest: চায়ের কাপ আর বাঁধন ভাইয়া">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Badhon's Cozy Quest 🍵">
+<meta name="twitter:description" content="এক কাপ চা আর একটু একটু ইংরেজি। Beginner থেকে Pro, চারটা লেভেলে।">
+<meta name="twitter:image" content="og-image.png">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500;700;800&family=Hind+Siliguri:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=badhon_fresh_101">
+
+<script>
+// Clear any stale local service worker cache on localhost
+if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(regs) {
+      for (var i = 0; i < regs.length; i++) {
+        regs[i].unregister();
+      }
+    });
+  }
+  if ('caches' in window) {
+    caches.keys().then(function(keys) {
+      keys.forEach(function(k) { caches.delete(k); });
+    });
+  }
+}
+</script>
+</head>
+<body translate="no" class="notranslate">
+<div id="app"></div>
+<div id="layer"></div>
+
+<script src="js/app.js?v=badhon_fresh_101"></script>
+
+</body>
+</html>
